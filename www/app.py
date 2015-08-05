@@ -6,7 +6,7 @@ from datetime import datetime
 from aiohttp import web
 
 def index(request):
-	return web.Response(body=b'<h1>Great</h1>')
+	return web.Response(body=b'<h1>Great Step</h1>')
 
 @asyncio.coroutine
 
